@@ -1,6 +1,4 @@
-import { PrismaClient } from "@prisma/client";
-
-const prisma = new PrismaClient();
+import prisma from './client';
 
 /* async function select() {
   // ... you will write your Prisma Client queries here
